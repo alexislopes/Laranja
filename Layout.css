@@ -1,0 +1,88 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+    font-family: 'mae';
+    src: url("../Fontes/Nunito/Nunito-Bold.ttf");
+}
+
+body {
+    background-color: #f6c08c;
+    color: rgba(0, 0, 0, 1);
+    font-family: 'mae';
+}
+
+header#cabecalho {
+    height: 60px;
+    background-color: #ae2209;
+    display: block;
+    margin: -10px -7px auto -7px;
+}
+
+header#cabecalho img#logo {
+    position: absolute;
+    left: 50px;
+}
+
+
+
+/* FORMATAÇÃO DO MENU */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: -15px;
+    left: 900px;
+    font-size: 18pt;
+}
+
+nav#menu li {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+}
+
+nav#menu li:hover{
+    color: #f7a72e;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+/* FIM DA FORMATAÇÃO DO MENU */
+
+div#post {
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    display: block;
+    background-color: #ae2209;
+    left: 50px;
+    top: 70px;
+}
+
+div#post p{
+    font-size: 25pt;
+    position: absolute;
+    top: -30px;
+    left: 10px;
+}
+
+
+footer#rodape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: large;
+    color: white;
+    background-color: #ae2209;
+    border-top: 10px;
+    text-align: center;
+
+}
+
